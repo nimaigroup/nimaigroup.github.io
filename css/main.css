@@ -1,0 +1,279 @@
+/* ========================================
+ Project: NIMAI GROUP
+ Copyright 2015 Sasa Hasid RA
+ Project Date: 11/23/2013
+ Author: Sasa Hasid RA => http://www.SasaRA.me
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: disc inside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear_all {
+    clear: both;
+}
+
+/* end reset */
+
+/*================================STRUCTURE================================*/
+
+.left {
+    float: left;
+    width: auto;
+}
+.right {
+    float: right;
+    width: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #b0e0e6;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    margin: 0 0 -1px;
+    width: 100%;
+}
+
+#spinnerwheel {
+    position: relative;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+}
+
+#nimaiContainer {
+    width: 900px;
+    /*height: auto;*/
+    /*position: relative;*/
+    /*font-family: 'Playfair Display', serif;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*text-align: left;*/
+}
+
+#nimaiLogoContainer {
+    /*position: absolute;*/
+    top: 30%;
+    margin-left:-40px;
+}
+
+#nimaiLogo {
+    height: 168px;
+    margin:30px;
+    /*background: rgba(0, 0, 0, 0) url("../img/nimaiLogoWhite.png") no-repeat scroll 0 0;*/
+
+}
+
+
+
+#nimaiLogo_nimai {
+    /*position: relative;*/
+    height: 85px;
+    width: 761px;
+    top: 0;
+    /*opacity:0;*/
+}
+
+#N_svg {
+    position: absolute;
+    left: 27px;
+    width: 92px;
+}
+
+#I_svg_1 {
+    left: 213px;
+    width: 38px;
+    position: absolute;
+}
+
+#M_svg {
+    position: absolute;
+    left: 346px;
+    width: 108px;
+}
+
+#A_svg {
+    position: absolute;
+    left: 547px;
+    width: 84px;
+}
+
+#I_svg_2 {
+    position: absolute;
+    left: 724px;
+    width: 38px;
+}
+
+#nimaiLogo_text {
+    /*position: relative;*/
+    left: 2px;
+    position: absolute;
+    width: 760px;
+    top: 104px;
+    /*opacity:0;*/
+}
+
+#new_svg {
+    position: relative;
+    float: left;
+    width: 63px;
+    left: 31px;
+    top: 3px;
+}
+
+#interactive_svg {
+    position: relative;
+    float: left;
+    width: 202px;
+    left: 55px;
+}
+
+#media_svg {
+    position: relative;
+    float: left;
+    width: 100px;
+    left: 80px;
+    top: -2px;
+}
+
+#arts_svg {
+    position: relative;
+    float: left;
+    width: 66px;
+    left: 106px;
+    top: 1px;
+}
+
+#innovationSml_svg {
+    position: relative;
+    float: left;
+    width: 197px;
+    left: 130px;
+}
+
+#nimaiLogo_group {
+    /*position: relative;*/
+    left: 3px;
+    top: 130px;
+    position: absolute;
+    width: 760px;
+    /*opacity:0;*/
+}
+
+#g_svg {
+    left: 26px;
+    position: absolute;
+    width: 50px;
+}
+
+#r_svg {
+    left: 212px;
+    position: absolute;
+    width: 33px;
+}
+
+#o_eye_svg {
+    left: 376px;
+    position: absolute;
+    width: 42px;
+}
+
+#u_svg {
+    left: 560px;
+    position: absolute;
+    width: 48px;
+}
+
+#p_svg {
+    left: 715px;
+    position: absolute;
+    width: 44px;
+}
+
+.missionText {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+
+
+
+
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.darkClass {
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 339px;
+    width: 100%;
+    z-index: 40
+}
+
+
+.centered-axis-xy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.centered {
+    /*background-color: #fff;*/
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid white;*/
+    /*min-width:90%;*/
+    max-height: 100%;
+}
+
+/*================================IMAGES================================*/
+
